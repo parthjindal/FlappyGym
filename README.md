@@ -6,6 +6,7 @@
 This repository uses a custom built OpenAI gym environment for a FlappyBird game rendered using pygames to implement Behaviour Cloning.
 
 ### Repository structure
+```
 ├── flappyGym
 │   ├── envs
 │   │   ├── assets
@@ -31,7 +32,7 @@ This repository uses a custom built OpenAI gym environment for a FlappyBird game
 │   └── top_level.txt
 ├── README.md
 └── setup.py
-
+```
 To install the dependencies and the environment run `pip install -e .`
 
 To start recording run `python recorder.py`
